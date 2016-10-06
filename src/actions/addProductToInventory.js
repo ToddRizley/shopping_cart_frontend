@@ -1,7 +1,7 @@
 import $ from 'jquery'
 
 export default function addProductToInventory(props) {
-  const URL = 'http://localhost:3000/api/v1/products'
+  const URL = 'http://shoppingcartapi.herokuapp.com/api/v1/products'
   return $.ajax({
     url:URL,
     type:"POST",
